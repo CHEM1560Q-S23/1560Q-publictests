@@ -1,0 +1,20 @@
+OK_FORMAT = True
+
+test = {   'name': 'q1',
+    'points': None,
+    'suites': [   {   'cases': [   {   'code': '>>> (alkanes,alkenes,alkynes) = sort_molecules([])\n>>> assert len(alkanes) == 0\n>>> assert len(alkenes) == 0\n>>> assert len(alkynes) == 0\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': ">>> (alkanes,alkenes,alkynes) = sort_molecules(['C2H6'])\n>>> assert len(alkanes) == 1\n>>> assert len(alkenes) == 0\n>>> assert len(alkynes) == 0\n",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': ">>> (alkanes,alkenes,alkynes) = sort_molecules(['C2H4'])\n>>> assert len(alkanes) == 0\n>>> assert len(alkenes) == 1\n>>> assert len(alkynes) == 0\n",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': ">>> (alkanes,alkenes,alkynes) = sort_molecules(['C2H2'])\n>>> assert len(alkanes) == 0\n>>> assert len(alkenes) == 0\n>>> assert len(alkynes) == 1\n",
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
