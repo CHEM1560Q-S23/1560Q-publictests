@@ -1,0 +1,21 @@
+OK_FORMAT = True
+
+test = {   'name': 'q4',
+    'points': None,
+    'suites': [   {   'cases': [   {'code': '>>> assert carb_mm(0,0,0) == 0\n', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> from math import isclose\n>>> \n>>> sig_digits = 3\n>>> assert isclose(carb_mm(1,0,0),12.011,abs_tol=10**-sig_digits)\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> from math import isclose\n>>> \n>>> sig_digits = 3\n>>> assert isclose(carb_mm(0,1,0),1.008,abs_tol=10**-sig_digits)\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> from math import isclose\n>>> \n>>> sig_digits = 3\n>>> assert isclose(carb_mm(0,0,1),15.999,abs_tol=10**-sig_digits)\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> from math import isclose\n>>> \n>>> sig_digits = 3\n>>> assert isclose(carb_mm(2,0,0),24.022,abs_tol=10**-sig_digits)\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
